@@ -11,3 +11,12 @@ body {
   background-color: rgb(232, 206, 244);
   border-radius: 5px;
 }
+
+.navbar a {
+  border: 1px solid plum;
+  margin-right: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: larger;
+}
