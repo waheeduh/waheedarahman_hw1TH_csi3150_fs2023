@@ -1,22 +1,38 @@
+* {
+  border: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
 body {
-  background-color: rgb(255, 192, 203);
-  font-family: "Times New Roman", Times New Roman, monospace;
+  background-color: pink;
+  font-family: "Gill Sans", Gill Sans, monospace;
 }
 
 .navbar {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 15px;
+  padding: 15px;
   overflow: hidden;
-  background-color: rgb(232, 206, 244);
-  border-radius: 5px;
+  background-color: rgb(251, 110, 188);
+  border-radius: 15px;
 }
 
 .navbar a {
-  border: 1px solid plum;
-  margin-right: 5px;
-  padding: 5px;
-  border-radius: 5px;
+  border: 1px rgb(0, 0, 0);
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 10px;
   text-decoration: none;
-  font-size: larger;
+  font-size: 32px;
+}
+
+.navbar a:hover {
+  background-color: rgb(173, 58, 77);
+  transition: 0.5s ease;
+}
+
+.h4 {
+  padding: 0;
+  font-style: italic;
 }
