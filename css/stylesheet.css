@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #ffedee;
+  background-color: #ffecf7;
   font-family: "Gill Sans", Gill Sans, monospace;
 }
 
@@ -38,18 +38,19 @@ body {
 
 .quote {
   padding: 50px;
-  text-align: left;
+  text-align: center;
+  font-size: 30px;
 }
 
 .para {
-  padding: 0px;
+  padding: 25px;
   text-align: left;
   font-size: 24px;
 }
 
 .progress {
-  padding: 30x;
-  margin: 10px;
+  padding: 25x;
+  margin: 25px;
   text-align: left;
   font-size: 20px;
 }
